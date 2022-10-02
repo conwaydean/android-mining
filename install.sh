@@ -10,7 +10,7 @@ chmod 0600 ~/.ssh/authorized_keys
 mkdir ~/ccminer
 cd ~/ccminer
 wget https://github.com/Oink70/Android-Mining/releases/download/v0.0.0-1/ccminer
-wget https://github.com/conwaydean/android-mining/blob/05b838262712d4558b8d5d99e606c01246943205/config.json
+wget https://raw.githubusercontent.com/conwaydean/android-mining/main/config.json
 chmod +x ccminer
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh

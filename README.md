@@ -12,7 +12,7 @@ lscpu
 If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 64-bit`, then do not bother to continue. Your phone is not running a 64-bit OS.
 
 ```bash
-curl -o- -k https://github.com/conwaydean/android-mining/blob/af4b213840f6b7c693cc2f580762b61425c6c643/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/conwaydean/android-mining/main/install.sh
 ```
 
 Now adjust pools, mineraddress+workername, and network settings for the API.
